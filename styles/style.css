@@ -238,7 +238,7 @@ a{
 
 /* support section starts here */
 .support-section{
-    background-image: url(./assets/handshake.jpg);
+    background-image: url(assets/handshake.jpg);
     background-size: cover;
     background-position: center;
     /* background-blend-mode: color-burn; */
