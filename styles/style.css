@@ -64,6 +64,7 @@ header{
     font-weight: 500;
     line-height: 23px;
     margin-top: 50px;
+    cursor: pointer;
 }
 /* banner section styles ends  */
 
@@ -265,16 +266,38 @@ a{
     color:rgb(255, 255, 255);
 }
 input[type="text"]{
-    /* width: 650px;
-    height: 30px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* flex-direction: column; */
-    padding: 19px 20px 19px 20px;
+    width: 650px;
+    height: 57px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 20px;
+}
+input[type="button"]{
+    border: none;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    width: 120px;
+    height: 59px;
+    cursor: pointer;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    
 }
 .support-section-title{
-    padding-top: 64px ;
+    padding-top: 110px ;
+}
+.support-section-description{
+    padding-top: 40px;
 }
 .last-section{
     display: flex;
@@ -284,11 +307,15 @@ input[type="text"]{
     
 }
 .form-box{
+    padding-top: 70px;
+    width: 70%;
+    margin: 0 auto;
+}
+form{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
+    gap:20px 
 }
 
 
