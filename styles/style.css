@@ -239,7 +239,7 @@ a{
 
 /* support section starts here */
 .support-section{
-    background-image: url(/assets/handshake.jpg);
+    background-image: url(./../assets/handshake.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
