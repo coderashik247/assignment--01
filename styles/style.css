@@ -24,6 +24,41 @@ body{
     text-align: center;
 }
 
+.header{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.header > nav > ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header> nav > ul > li{
+    list-style: none;
+}
+
+.logo{
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    text-align: left;
+}
+.logo-btn{
+    padding: 17px 24px 17px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+    
+
+
 
 /* banner-section styles starts here */
 header{
